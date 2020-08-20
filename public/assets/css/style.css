@@ -1,0 +1,388 @@
+/** Configurações Gerais **/ 
+* {
+	box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+html, body {
+margin: 0;
+padding: 0;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+    background-color: #363636;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type=text], input[type=email]{
+    border: 1px solid #363636 !important;
+    border-radius: 2px !important;
+    margin-top: 2rem;
+}
+
+textarea{
+    width: 100%;
+    height: 197px;
+    padding: 11px;
+    margin-top: 1rem;
+    border: 1px solid #363636 !important;
+    border-radius: 2px !important;
+    resize: none;
+}
+
+/** HEADER **/
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.bg {
+    color: white;
+    /*background: url('../img/bg.png') no-repeat center;*/
+    background-size: cover;
+    width: 100%;
+    height: 625px;
+}
+
+.txt-logo {
+    font-size: 22.5px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.68px;
+}
+
+.txt-tema p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.txt-frase{
+    margin-top: 31rem;
+    position: relative;
+    left: 3rem;
+}
+
+.txt-frase p {
+    font-size: 20px;
+}
+
+/** PERSONAGENS **/
+
+.section-personagem{
+    margin-bottom: 15rem;
+}
+
+.box-personagem{
+    background-color: #fff;
+    border-radius: 27px;
+    box-shadow: 0px 3px 6px #FFFFFF63;
+    height: 534px;
+    margin-top: 18rem;
+    position: relative;
+}
+
+.bg-personagem{
+    background-color: #363636;
+    border-radius: 77px;
+    border: 2px solid #fff;
+    position: relative;
+    top: -6rem;
+    width: 20rem;
+    height: 23rem;
+    left: 14px;
+}
+
+.bg-personagem img{
+    position: relative;
+    top: -58px;
+}
+
+.text-descricao-personagem{
+    color: #363636;
+    text-align: left;
+    padding: 18px;
+    font-size: 20px;
+    position: relative;
+    top: -82px;
+}
+
+/** CONTATO **/
+
+.section-contato{
+    background: transparent linear-gradient(143deg, #7DEDE2 0%, #58B790 100%);
+    height: 690px;
+}
+
+.box-contato{
+    height: 832px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px #0000004D;
+    position: relative;
+    top: -80px;
+    border-radius: 6px;
+    padding: 50px;
+}
+
+.box-contato h1{
+    text-transform: uppercase;
+    color: #63C7A9;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.box-contato p{
+    text-align: left;
+    font-size: 20px;
+    color: #363636;
+    margin-top: 3rem;
+}
+
+.btn-contato {
+    background: #63C7A9;
+    width: 100%;
+    color: #fff;
+    border-radius: 2px;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.btn-contato:hover{
+    color: #fff;
+}
+
+/** FOOTER **/
+
+.footer-area{
+    height: 200px;
+}
+
+.btn-back-to-top {
+    position: fixed;
+    background: #fff;
+    display: none;
+    color: #000;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 90px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+
+.btn-back-to-top i {
+    padding-top: 15px;
+    color: #000;
+}
+
+
+
+@media (min-width:900px) and (max-width:1024px) {
+    .txt-logo {
+        margin-left: -52px;
+    }
+
+    .txt-frase p {
+        font-size: 16px;
+    }
+
+    .bg-personagem{
+        width: 16rem !important;
+        height: 23rem !important;
+        left: 18px !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:900px) {
+    .txt-logo {
+        margin-left: -52px;
+    }
+
+    .txt-tema p {
+        font-size: 11px;
+    }
+
+    .txt-frase {
+        margin-top: 29rem;
+    }
+
+    .txt-frase p {
+        font-size: 15px;
+    }
+
+    .box-personagem{
+        height: 433px;
+    }
+    
+    .bg-personagem img{
+        top: 3px;
+        left: 2px;
+    }
+
+    .bg-personagem {
+        width: 11rem;
+        height: 15rem;
+        left: 18px;
+    }
+    .text-descricao-personagem{
+        font-size: 16px;
+    }
+
+    .box-contato p{
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .txt-logo {
+        font-size: 15.5px;
+        margin-left: -52px;
+    }
+
+    
+    .txt-tema p {
+        font-size: 11px;
+    }
+
+    .txt-frase {
+        margin-top: 29rem;
+    }
+
+    .txt-frase p {
+        font-size: 15px;
+    }
+
+    .box-personagem{
+        height: 433px;
+    }
+    
+    .bg-personagem img{
+        top: -6px;
+        left: -2px;
+    }
+
+    .bg-personagem {
+        width: 12rem;
+        height: 16rem;
+        left: 7px;
+    }
+    
+    .text-descricao-personagem{
+        font-size: 16px;
+    }
+    
+    .box-contato p{
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .txt-logo {
+        font-size: 13.5px;
+        margin-left: -52px;
+    }
+    
+    .txt-tema p {
+        font-size: 11px;
+    }
+
+    .txt-frase {
+        margin-top: 29rem;
+        left: 4rem;
+    }
+
+    .txt-frase p {
+        font-size: 15px;
+    }
+
+    .box-personagem{
+        height: 433px;
+    }
+    
+    .bg-personagem img{
+        top: -6px;
+        left: -2px;
+    }
+
+    .bg-personagem {
+        width: 12rem;
+        height: 16rem;
+        left: 9px;
+    }
+    
+    .text-descricao-personagem{
+        font-size: 16px;
+    }
+    
+    .box-contato p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .txt-logo{
+        font-size: 12.5px;
+        margin-left: -123px;
+    }
+
+    .bg-personagem{
+        width: 16rem;
+        height: 20rem;
+        left: 44px;
+    }
+
+    .bg-personagem img {
+        top: -29px;
+        left: 4px;
+    }
+
+    .btn-back-to-top{
+        right: 40px;
+    }
+
+    .box-contato h1{
+        font-size: 27px;
+    }
+
+    .box-contato p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    .txt-tema p {
+        font-size: 10px;
+    }
+
+    .txt-logo{
+        font-size: 12.5px;
+        margin-left: -123px;
+    }
+
+    .txt-frase p {
+        font-size: 13px;
+    }
+
+    .bg-personagem{
+        left: 16px;
+    }
+
+}
